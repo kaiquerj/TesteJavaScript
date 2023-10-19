@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
 
     <title>Teste</title>
 </head>
 <body>
 
-    <button id="bt01"> Mudar texto </button>
-    <button id="bt02"> Mudar CSS </button>
-    <button id="bt03"> Mudar atributo </button>
+    <button id="bt01"> Mudar texto </button> <!-- Declarei o bt01 e dei um apelido para ele-->
+    <button id="bt02"> Mudar CSS </button> <!-- Declarei o bt02 e dei um apelido para ele-->
+    <button id="bt03"> Mudar atributo </button> <!-- Declarei o bt03 e dei um apelido para ele-->
+    <button id="bt04"> Gerar linha na tabela </button> <!-- Declarei o bt04 e dei um apelido para ele-->
+    <button id="btNovo"> botão novo </button> <!-- Declarei o btNovo e dei um apelido para ele-->
     <button> gerar conteúdo </button>
 
     <h1> Teste </h1>
@@ -19,7 +22,33 @@
         </p>
 
         <img src="imagens/carnaval-rio.png" alt=" width 300">
+
+   <div>
+        <form action=""> <!-- criação de um formulário com atributos nome e id igual para facilitar-->
+            <label for="nome">Nome</label> <br>
+            <input type="text" id="nome"> <br>
     
+            <label for="idade">idade</label> <br> <!--  atributos idade e id igual para facilitar-->
+            <input type="text" id="idade"> <br>
+    
+            <button>adicionar</button>
+        </form>
+     </div>
+     <br>
+     <button></button>
+
+    <table border="1"> <!-- criamos também a borda deles -->
+        <tr>
+            <th>#</th>
+            <th>NOME</th>
+            <th>IDADE</th>
+        </tr>
+
+
+ 
+    </table>
+
+
 </body>
-<script src="script.js"></script> 
+<script src="script.js"></script>   <!-- trazendo o javascript para cá-->
 </html>

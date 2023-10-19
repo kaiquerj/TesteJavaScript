@@ -1,0 +1,16 @@
+div{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(137, 43, 226, 0.501);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 5px;
+}
